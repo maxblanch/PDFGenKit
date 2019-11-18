@@ -16,6 +16,50 @@
 		506A018423824E3C009007C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 506A018223824E3C009007C1 /* Main.storyboard */; };
 		506A018623824E3D009007C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 506A018523824E3D009007C1 /* Assets.xcassets */; };
 		506A018923824E3D009007C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 506A018723824E3D009007C1 /* LaunchScreen.storyboard */; };
+		506A01BE23825034009007C1 /* ILPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 506A018F23825034009007C1 /* ILPDFDocument.m */; };
+		506A01BF23825034009007C1 /* ILPDFForm.h in Headers */ = {isa = PBXBuildFile; fileRef = 506A019023825034009007C1 /* ILPDFForm.h */; };
+		506A01C023825034009007C1 /* ILPDFFormContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 506A019123825034009007C1 /* ILPDFFormContainer.m */; };
+		506A01C123825034009007C1 /* ILPDFPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 506A019223825034009007C1 /* ILPDFPage.h */; };
+		506A01C223825034009007C1 /* ILPDFName.h in Headers */ = {isa = PBXBuildFile; fileRef = 506A019423825034009007C1 /* ILPDFName.h */; };
+		506A01C323825034009007C1 /* ILPDFStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 506A019523825034009007C1 /* ILPDFStream.m */; };
+		506A01C423825034009007C1 /* ILPDFString.h in Headers */ = {isa = PBXBuildFile; fileRef = 506A019623825034009007C1 /* ILPDFString.h */; };
+		506A01C523825034009007C1 /* ILPDFNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 506A019723825034009007C1 /* ILPDFNumber.h */; };
+		506A01C623825034009007C1 /* ILPDFObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 506A019823825034009007C1 /* ILPDFObject.h */; };
+		506A01C723825034009007C1 /* ILPDFNull.h in Headers */ = {isa = PBXBuildFile; fileRef = 506A019923825034009007C1 /* ILPDFNull.h */; };
+		506A01C823825034009007C1 /* ILPDFArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 506A019A23825034009007C1 /* ILPDFArray.h */; };
+		506A01C923825034009007C1 /* ILPDFDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 506A019B23825034009007C1 /* ILPDFDictionary.h */; };
+		506A01CA23825034009007C1 /* ILPDFString.m in Sources */ = {isa = PBXBuildFile; fileRef = 506A019C23825034009007C1 /* ILPDFString.m */; };
+		506A01CB23825034009007C1 /* ILPDFStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 506A019D23825034009007C1 /* ILPDFStream.h */; };
+		506A01CC23825034009007C1 /* ILPDFName.m in Sources */ = {isa = PBXBuildFile; fileRef = 506A019E23825034009007C1 /* ILPDFName.m */; };
+		506A01CD23825034009007C1 /* ILPDFNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 506A019F23825034009007C1 /* ILPDFNumber.m */; };
+		506A01CE23825034009007C1 /* ILPDFArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 506A01A023825034009007C1 /* ILPDFArray.m */; };
+		506A01CF23825034009007C1 /* ILPDFDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 506A01A123825034009007C1 /* ILPDFDictionary.m */; };
+		506A01D023825034009007C1 /* ILPDFNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 506A01A223825034009007C1 /* ILPDFNull.m */; };
+		506A01D123825034009007C1 /* ILPDFForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 506A01A323825034009007C1 /* ILPDFForm.m */; };
+		506A01D223825034009007C1 /* ILPDFDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 506A01A423825034009007C1 /* ILPDFDocument.h */; };
+		506A01D323825034009007C1 /* ILPDFPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 506A01A523825034009007C1 /* ILPDFPage.m */; };
+		506A01D423825034009007C1 /* ILPDFFormContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 506A01A623825034009007C1 /* ILPDFFormContainer.h */; };
+		506A01D523825034009007C1 /* ILPDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 506A01A823825034009007C1 /* ILPDFViewController.m */; };
+		506A01D623825034009007C1 /* ILPDFSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 506A01A923825034009007C1 /* ILPDFSerializer.h */; };
+		506A01D723825034009007C1 /* ILPDFViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 506A01AA23825034009007C1 /* ILPDFViewController.h */; };
+		506A01D823825034009007C1 /* ILPDFSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 506A01AB23825034009007C1 /* ILPDFSerializer.m */; };
+		506A01D923825034009007C1 /* ILPDFFormSignatureField.m in Sources */ = {isa = PBXBuildFile; fileRef = 506A01AD23825034009007C1 /* ILPDFFormSignatureField.m */; };
+		506A01DA23825034009007C1 /* ILPDFFormChoiceField.m in Sources */ = {isa = PBXBuildFile; fileRef = 506A01AE23825034009007C1 /* ILPDFFormChoiceField.m */; };
+		506A01DB23825034009007C1 /* ILPDFFormTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 506A01AF23825034009007C1 /* ILPDFFormTextField.h */; };
+		506A01DC23825034009007C1 /* ILPDFView.h in Headers */ = {isa = PBXBuildFile; fileRef = 506A01B023825034009007C1 /* ILPDFView.h */; };
+		506A01DD23825034009007C1 /* ILPDFFormButtonField.m in Sources */ = {isa = PBXBuildFile; fileRef = 506A01B123825034009007C1 /* ILPDFFormButtonField.m */; };
+		506A01DE23825034009007C1 /* ILPDFWidgetAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 506A01B223825034009007C1 /* ILPDFWidgetAnnotationView.m */; };
+		506A01DF23825034009007C1 /* ILPDFFormSignatureField.h in Headers */ = {isa = PBXBuildFile; fileRef = 506A01B323825034009007C1 /* ILPDFFormSignatureField.h */; };
+		506A01E023825034009007C1 /* ILPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 506A01B423825034009007C1 /* ILPDFView.m */; };
+		506A01E123825034009007C1 /* ILPDFFormTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 506A01B523825034009007C1 /* ILPDFFormTextField.m */; };
+		506A01E223825034009007C1 /* ILPDFFormChoiceField.h in Headers */ = {isa = PBXBuildFile; fileRef = 506A01B623825034009007C1 /* ILPDFFormChoiceField.h */; };
+		506A01E323825034009007C1 /* ILPDFWidgetAnnotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 506A01B723825034009007C1 /* ILPDFWidgetAnnotationView.h */; };
+		506A01E423825034009007C1 /* ILPDFFormButtonField.h in Headers */ = {isa = PBXBuildFile; fileRef = 506A01B823825034009007C1 /* ILPDFFormButtonField.h */; };
+		506A01E523825034009007C1 /* ILPDFUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 506A01BA23825034009007C1 /* ILPDFUtility.m */; };
+		506A01E623825034009007C1 /* ILPDFObjectParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 506A01BB23825034009007C1 /* ILPDFObjectParser.m */; };
+		506A01E723825034009007C1 /* ILPDFUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 506A01BC23825034009007C1 /* ILPDFUtility.h */; };
+		506A01E823825034009007C1 /* ILPDFObjectParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 506A01BD23825034009007C1 /* ILPDFObjectParser.h */; };
+		50B85210238251B700F2E4DB /* PDFGenKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 50B8520F238251B700F2E4DB /* PDFGenKit.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +87,50 @@
 		506A018523824E3D009007C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		506A018823824E3D009007C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		506A018A23824E3D009007C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		506A018F23825034009007C1 /* ILPDFDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILPDFDocument.m; sourceTree = "<group>"; };
+		506A019023825034009007C1 /* ILPDFForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILPDFForm.h; sourceTree = "<group>"; };
+		506A019123825034009007C1 /* ILPDFFormContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILPDFFormContainer.m; sourceTree = "<group>"; };
+		506A019223825034009007C1 /* ILPDFPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILPDFPage.h; sourceTree = "<group>"; };
+		506A019423825034009007C1 /* ILPDFName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILPDFName.h; sourceTree = "<group>"; };
+		506A019523825034009007C1 /* ILPDFStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILPDFStream.m; sourceTree = "<group>"; };
+		506A019623825034009007C1 /* ILPDFString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILPDFString.h; sourceTree = "<group>"; };
+		506A019723825034009007C1 /* ILPDFNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILPDFNumber.h; sourceTree = "<group>"; };
+		506A019823825034009007C1 /* ILPDFObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILPDFObject.h; sourceTree = "<group>"; };
+		506A019923825034009007C1 /* ILPDFNull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILPDFNull.h; sourceTree = "<group>"; };
+		506A019A23825034009007C1 /* ILPDFArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILPDFArray.h; sourceTree = "<group>"; };
+		506A019B23825034009007C1 /* ILPDFDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILPDFDictionary.h; sourceTree = "<group>"; };
+		506A019C23825034009007C1 /* ILPDFString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILPDFString.m; sourceTree = "<group>"; };
+		506A019D23825034009007C1 /* ILPDFStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILPDFStream.h; sourceTree = "<group>"; };
+		506A019E23825034009007C1 /* ILPDFName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILPDFName.m; sourceTree = "<group>"; };
+		506A019F23825034009007C1 /* ILPDFNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILPDFNumber.m; sourceTree = "<group>"; };
+		506A01A023825034009007C1 /* ILPDFArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILPDFArray.m; sourceTree = "<group>"; };
+		506A01A123825034009007C1 /* ILPDFDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILPDFDictionary.m; sourceTree = "<group>"; };
+		506A01A223825034009007C1 /* ILPDFNull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILPDFNull.m; sourceTree = "<group>"; };
+		506A01A323825034009007C1 /* ILPDFForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILPDFForm.m; sourceTree = "<group>"; };
+		506A01A423825034009007C1 /* ILPDFDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILPDFDocument.h; sourceTree = "<group>"; };
+		506A01A523825034009007C1 /* ILPDFPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILPDFPage.m; sourceTree = "<group>"; };
+		506A01A623825034009007C1 /* ILPDFFormContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILPDFFormContainer.h; sourceTree = "<group>"; };
+		506A01A823825034009007C1 /* ILPDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILPDFViewController.m; sourceTree = "<group>"; };
+		506A01A923825034009007C1 /* ILPDFSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILPDFSerializer.h; sourceTree = "<group>"; };
+		506A01AA23825034009007C1 /* ILPDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILPDFViewController.h; sourceTree = "<group>"; };
+		506A01AB23825034009007C1 /* ILPDFSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILPDFSerializer.m; sourceTree = "<group>"; };
+		506A01AD23825034009007C1 /* ILPDFFormSignatureField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILPDFFormSignatureField.m; sourceTree = "<group>"; };
+		506A01AE23825034009007C1 /* ILPDFFormChoiceField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILPDFFormChoiceField.m; sourceTree = "<group>"; };
+		506A01AF23825034009007C1 /* ILPDFFormTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILPDFFormTextField.h; sourceTree = "<group>"; };
+		506A01B023825034009007C1 /* ILPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILPDFView.h; sourceTree = "<group>"; };
+		506A01B123825034009007C1 /* ILPDFFormButtonField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILPDFFormButtonField.m; sourceTree = "<group>"; };
+		506A01B223825034009007C1 /* ILPDFWidgetAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILPDFWidgetAnnotationView.m; sourceTree = "<group>"; };
+		506A01B323825034009007C1 /* ILPDFFormSignatureField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILPDFFormSignatureField.h; sourceTree = "<group>"; };
+		506A01B423825034009007C1 /* ILPDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILPDFView.m; sourceTree = "<group>"; };
+		506A01B523825034009007C1 /* ILPDFFormTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILPDFFormTextField.m; sourceTree = "<group>"; };
+		506A01B623825034009007C1 /* ILPDFFormChoiceField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILPDFFormChoiceField.h; sourceTree = "<group>"; };
+		506A01B723825034009007C1 /* ILPDFWidgetAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILPDFWidgetAnnotationView.h; sourceTree = "<group>"; };
+		506A01B823825034009007C1 /* ILPDFFormButtonField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILPDFFormButtonField.h; sourceTree = "<group>"; };
+		506A01BA23825034009007C1 /* ILPDFUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILPDFUtility.m; sourceTree = "<group>"; };
+		506A01BB23825034009007C1 /* ILPDFObjectParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILPDFObjectParser.m; sourceTree = "<group>"; };
+		506A01BC23825034009007C1 /* ILPDFUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILPDFUtility.h; sourceTree = "<group>"; };
+		506A01BD23825034009007C1 /* ILPDFObjectParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILPDFObjectParser.h; sourceTree = "<group>"; };
+		50B8520F238251B700F2E4DB /* PDFGenKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PDFGenKit.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +166,7 @@
 				506A015123824D0E009007C1 /* PDFGenKitTests */,
 				506A017B23824E3C009007C1 /* PDFGenKitExamples */,
 				506A014523824D0D009007C1 /* Products */,
+				50B8520F238251B700F2E4DB /* PDFGenKit.podspec */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +183,10 @@
 		506A014623824D0D009007C1 /* PDFGenKit */ = {
 			isa = PBXGroup;
 			children = (
+				506A01A723825034009007C1 /* Controller */,
+				506A018E23825034009007C1 /* Model */,
+				506A01B923825034009007C1 /* Utility */,
+				506A01AC23825034009007C1 /* View */,
 				506A014723824D0D009007C1 /* PDFGenKit.h */,
 				506A014823824D0D009007C1 /* Info.plist */,
 			);
@@ -123,6 +216,85 @@
 			path = PDFGenKitExamples;
 			sourceTree = "<group>";
 		};
+		506A018E23825034009007C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				506A018F23825034009007C1 /* ILPDFDocument.m */,
+				506A019023825034009007C1 /* ILPDFForm.h */,
+				506A019123825034009007C1 /* ILPDFFormContainer.m */,
+				506A019223825034009007C1 /* ILPDFPage.h */,
+				506A019323825034009007C1 /* Objects */,
+				506A01A323825034009007C1 /* ILPDFForm.m */,
+				506A01A423825034009007C1 /* ILPDFDocument.h */,
+				506A01A523825034009007C1 /* ILPDFPage.m */,
+				506A01A623825034009007C1 /* ILPDFFormContainer.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		506A019323825034009007C1 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				506A019423825034009007C1 /* ILPDFName.h */,
+				506A019523825034009007C1 /* ILPDFStream.m */,
+				506A019623825034009007C1 /* ILPDFString.h */,
+				506A019723825034009007C1 /* ILPDFNumber.h */,
+				506A019823825034009007C1 /* ILPDFObject.h */,
+				506A019923825034009007C1 /* ILPDFNull.h */,
+				506A019A23825034009007C1 /* ILPDFArray.h */,
+				506A019B23825034009007C1 /* ILPDFDictionary.h */,
+				506A019C23825034009007C1 /* ILPDFString.m */,
+				506A019D23825034009007C1 /* ILPDFStream.h */,
+				506A019E23825034009007C1 /* ILPDFName.m */,
+				506A019F23825034009007C1 /* ILPDFNumber.m */,
+				506A01A023825034009007C1 /* ILPDFArray.m */,
+				506A01A123825034009007C1 /* ILPDFDictionary.m */,
+				506A01A223825034009007C1 /* ILPDFNull.m */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		506A01A723825034009007C1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				506A01A823825034009007C1 /* ILPDFViewController.m */,
+				506A01A923825034009007C1 /* ILPDFSerializer.h */,
+				506A01AA23825034009007C1 /* ILPDFViewController.h */,
+				506A01AB23825034009007C1 /* ILPDFSerializer.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		506A01AC23825034009007C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				506A01AD23825034009007C1 /* ILPDFFormSignatureField.m */,
+				506A01AE23825034009007C1 /* ILPDFFormChoiceField.m */,
+				506A01AF23825034009007C1 /* ILPDFFormTextField.h */,
+				506A01B023825034009007C1 /* ILPDFView.h */,
+				506A01B123825034009007C1 /* ILPDFFormButtonField.m */,
+				506A01B223825034009007C1 /* ILPDFWidgetAnnotationView.m */,
+				506A01B323825034009007C1 /* ILPDFFormSignatureField.h */,
+				506A01B423825034009007C1 /* ILPDFView.m */,
+				506A01B523825034009007C1 /* ILPDFFormTextField.m */,
+				506A01B623825034009007C1 /* ILPDFFormChoiceField.h */,
+				506A01B723825034009007C1 /* ILPDFWidgetAnnotationView.h */,
+				506A01B823825034009007C1 /* ILPDFFormButtonField.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		506A01B923825034009007C1 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				506A01BA23825034009007C1 /* ILPDFUtility.m */,
+				506A01BB23825034009007C1 /* ILPDFObjectParser.m */,
+				506A01BC23825034009007C1 /* ILPDFUtility.h */,
+				506A01BD23825034009007C1 /* ILPDFObjectParser.h */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -130,6 +302,28 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				506A01DC23825034009007C1 /* ILPDFView.h in Headers */,
+				506A01C623825034009007C1 /* ILPDFObject.h in Headers */,
+				506A01BF23825034009007C1 /* ILPDFForm.h in Headers */,
+				506A01C523825034009007C1 /* ILPDFNumber.h in Headers */,
+				506A01DF23825034009007C1 /* ILPDFFormSignatureField.h in Headers */,
+				506A01C723825034009007C1 /* ILPDFNull.h in Headers */,
+				506A01C223825034009007C1 /* ILPDFName.h in Headers */,
+				506A01C123825034009007C1 /* ILPDFPage.h in Headers */,
+				506A01DB23825034009007C1 /* ILPDFFormTextField.h in Headers */,
+				506A01C923825034009007C1 /* ILPDFDictionary.h in Headers */,
+				506A01D723825034009007C1 /* ILPDFViewController.h in Headers */,
+				506A01E823825034009007C1 /* ILPDFObjectParser.h in Headers */,
+				506A01D223825034009007C1 /* ILPDFDocument.h in Headers */,
+				506A01C823825034009007C1 /* ILPDFArray.h in Headers */,
+				506A01CB23825034009007C1 /* ILPDFStream.h in Headers */,
+				506A01E223825034009007C1 /* ILPDFFormChoiceField.h in Headers */,
+				506A01D623825034009007C1 /* ILPDFSerializer.h in Headers */,
+				506A01E423825034009007C1 /* ILPDFFormButtonField.h in Headers */,
+				506A01C423825034009007C1 /* ILPDFString.h in Headers */,
+				506A01D423825034009007C1 /* ILPDFFormContainer.h in Headers */,
+				506A01E723825034009007C1 /* ILPDFUtility.h in Headers */,
+				506A01E323825034009007C1 /* ILPDFWidgetAnnotationView.h in Headers */,
 				506A015523824D0E009007C1 /* PDFGenKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,6 +430,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50B85210238251B700F2E4DB /* PDFGenKit.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +458,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				506A01DA23825034009007C1 /* ILPDFFormChoiceField.m in Sources */,
+				506A01BE23825034009007C1 /* ILPDFDocument.m in Sources */,
+				506A01D123825034009007C1 /* ILPDFForm.m in Sources */,
+				506A01CF23825034009007C1 /* ILPDFDictionary.m in Sources */,
+				506A01DD23825034009007C1 /* ILPDFFormButtonField.m in Sources */,
+				506A01CC23825034009007C1 /* ILPDFName.m in Sources */,
+				506A01C023825034009007C1 /* ILPDFFormContainer.m in Sources */,
+				506A01E623825034009007C1 /* ILPDFObjectParser.m in Sources */,
+				506A01DE23825034009007C1 /* ILPDFWidgetAnnotationView.m in Sources */,
+				506A01E523825034009007C1 /* ILPDFUtility.m in Sources */,
+				506A01D323825034009007C1 /* ILPDFPage.m in Sources */,
+				506A01D023825034009007C1 /* ILPDFNull.m in Sources */,
+				506A01E123825034009007C1 /* ILPDFFormTextField.m in Sources */,
+				506A01E023825034009007C1 /* ILPDFView.m in Sources */,
+				506A01CA23825034009007C1 /* ILPDFString.m in Sources */,
+				506A01CD23825034009007C1 /* ILPDFNumber.m in Sources */,
+				506A01D823825034009007C1 /* ILPDFSerializer.m in Sources */,
+				506A01C323825034009007C1 /* ILPDFStream.m in Sources */,
+				506A01D923825034009007C1 /* ILPDFFormSignatureField.m in Sources */,
+				506A01D523825034009007C1 /* ILPDFViewController.m in Sources */,
+				506A01CE23825034009007C1 /* ILPDFArray.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
