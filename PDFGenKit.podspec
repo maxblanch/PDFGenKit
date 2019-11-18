@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "PDFGenKit"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "PDFGenKit"
 
   spec.description  = <<-DESC
@@ -12,7 +12,7 @@ This CocoaPods library helps you perform calculation.
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "Max Blanchard" => "maxime.blanchard.1@ulaval.ca" }
 
-  spec.ios.deployment_target = "12.1"
+  spec.ios.deployment_target = "12.0"
   spec.swift_version = "4.2"
 
   spec.source        = { :git => "https://github.com/maxblanch/PDFGenKit.git", :tag => "#{spec.version}" }
