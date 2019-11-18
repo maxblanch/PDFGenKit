@@ -14,5 +14,25 @@ FOUNDATION_EXPORT double PDFGenKitVersionNumber;
 //! Project version string for PDFGenKit.
 FOUNDATION_EXPORT const unsigned char PDFGenKitVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <PDFGenKit/PublicHeader.h>
-
+#import <PDFGenKit/ILPDFDocument.h>
+#import <PDFGenKit/ILPDFArray.h>
+#import <PDFGenKit/ILPDFDictionary.h>
+#import <PDFGenKit/ILPDFForm.h>
+#import <PDFGenKit/ILPDFFormButtonField.h>
+#import <PDFGenKit/ILPDFFormChoiceField.h>
+#import <PDFGenKit/ILPDFFormContainer.h>
+#import <PDFGenKit/ILPDFFormSignatureField.h>
+#import <PDFGenKit/ILPDFFormTextField.h>
+#import <PDFGenKit/ILPDFName.h>
+#import <PDFGenKit/ILPDFNull.h>
+#import <PDFGenKit/ILPDFNumber.h>
+#import <PDFGenKit/ILPDFObject.h>
+#import <PDFGenKit/ILPDFObjectParser.h>
+#import <PDFGenKit/ILPDFPage.h>
+#import <PDFGenKit/ILPDFSerializer.h>
+#import <PDFGenKit/ILPDFStream.h>
+#import <PDFGenKit/ILPDFString.h>
+#import <PDFGenKit/ILPDFUtility.h>
+#import <PDFGenKit/ILPDFView.h>
+#import <PDFGenKit/ILPDFViewController.h>
+#import <PDFGenKit/ILPDFWidgetAnnotationView.h>
