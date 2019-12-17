@@ -59,16 +59,21 @@
 }
 
 + (CGFloat)fontSizeForRect:(CGRect)rect value:(NSString *)value multiline:(BOOL)multiline choice:(BOOL)choice {
-    if (multiline) return ILPDFFormMinFontSize;
-    CGFloat baseSize;
-    if (choice) baseSize = roundf(MIN(MAX(floorf(rect.size.height*ILPDFChoiceFieldBaseFontSizeToFrameHeightScaleFactor),ILPDFFormMinFontSize),ILPDFFormMaxFontSize));
-    else baseSize = roundf(MAX(MIN(ILPDFFormMaxFontSize,MIN(rect.size.height, ILPDFFormMaxFontSize)*ILPDFTextFieldFontScaleFactor),ILPDFFormMinFontSize));
-    if (value) {
-        while (baseSize >= ILPDFFormMinFontSize && [value sizeWithAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:baseSize]}].width > rect.size.width-ILPDFFormMinFontSize) {
-            baseSize -= 1.0;
-        }
-        return baseSize;
-    } else return baseSize;
+//    if (multiline) return ILPDFFormMinFontSize;
+//    CGFloat baseSize;
+//    if (choice) baseSize = roundf(MIN(MAX(floorf(rect.size.height*ILPDFChoiceFieldBaseFontSizeToFrameHeightScaleFactor),ILPDFFormMinFontSize),ILPDFFormMaxFontSize));
+//    else baseSize = roundf(MAX(MIN(ILPDFFormMaxFontSize,MIN(rect.size.height, ILPDFFormMaxFontSize)*ILPDFTextFieldFontScaleFactor),ILPDFFormMinFontSize));
+//    if (value) {
+//        while (baseSize >= ILPDFFormMinFontSize && [value sizeWithAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:baseSize]}].width > rect.size.width-ILPDFFormMinFontSize) {
+//            baseSize -= 1.0;
+//        }
+//        return baseSize;
+//    } else return baseSize;
+    if (rect.size.width < 50) {
+        return 8.0;
+    } else {
+        return 10.0;
+    }
 }
 
 - (void)setValue:(NSString *)value {
